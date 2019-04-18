@@ -1,0 +1,58 @@
+/*覆盖easyui中的图标样式*/
+.l-btn-icon, .panel-icon, .menu-icon, .tabs-icon {
+    font-family: FontAwesome;
+    font-size: 14px;
+    line-height: normal !important;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #6699cc;
+    text-align: center;
+}
+
+.panel-icon {
+    top: 57%;
+}
+
+.l-btn-icon {
+    font-size: 15px !important;
+}
+
+.tabs-icon {
+    font-size: 16px !important;
+    font-weight: normal;
+}
+
+/*调整菜单，表格相关样式*/
+.sidemenu .tree-node {
+    border-bottom: 1px solid #eee;
+}
+
+.sidemenu .accordion .accordion-header {
+    border-bottom-color: #ddd;
+}
+
+.sidemenu .accordion .accordion-header-selected {
+    background: #eaf2ff;
+}
+
+.sidemenu .accordion .panel-last .accordion-header {
+    border-bottom-color: transparent;
+}
+
+.sidemenu .accordion-header .panel-title {
+    font-weight: 200;
+}
+
+.datagrid .panel-body-noheader {
+    /*padding: 5px;*/
+    border-radius: 5px;
+}
+
+.datagrid .panel-body-noheader .datagrid-view2 {
+    width: calc(100% - 30px) !important;
+}
+
+.datagrid .panel-body-noheader, .datagrid-view, .datagrid-header, .datagrid-body, .datagrid-footer {
+    width: 100% !important;
+}
