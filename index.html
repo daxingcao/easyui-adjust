@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo</title>
+	<link rel="stylesheet" type="text/css" href="easyui/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="css/easyui-adjust.css" />
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+	<link rel="stylesheet" type="text/css" href="easyui/icon.css">
+	<script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+	<script src="easyui/jquery.easyui.min.js"></script>
+	<script src="js/init.js"></script>
+</head>
+<body>
+	<div id="sm" class="easyui-sidemenu" style="margin: auto;" data-options="data:data"></div>
+	<script type="text/javascript">
+		var data = [{
+	        text: 'Item1',
+	        iconCls: 'fa-bar-chart',
+	        state: 'open',
+	        children: [{
+	            text: 'Option1'
+	        },{
+	            text: 'Option2'
+	        },{
+	            text: 'Option3',
+	            children: [{
+	                text: 'Option31'
+	            },{
+	                text: 'Option32'
+	            }]
+	        }]
+	    },{
+	        text: 'Item2',
+	        iconCls: 'icon-more',
+	        children: [{
+	            text: 'Option4'
+	        },{
+	            text: 'Option5'
+	        },{
+	            text: 'Option6'
+	        }]
+	    }];
+	</script>
+</body>
+</html>
